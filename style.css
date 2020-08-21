@@ -1,0 +1,64 @@
+html, body {
+    margin:0;
+    padding:0;
+    background:red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align:center;
+    color:white;
+    background:rgb(34, 32, 32);
+    margin:10px auto;
+    padding:5px;
+    font-size:28px;
+    width:95%;
+    border:2px solid white;
+    box-shadow: 1px 1px 5px black;
+}
+form fieldset {
+    border:none;
+    margin:20px 0;
+    box-sizing: border-box;
+}
+label {
+    text-transform:uppercase;
+    color:white;
+    margin:10px 0;
+    float:left;
+    width:45%;
+    padding: 0;
+    font-weight: 900;
+    text-align: center;
+}
+#label-1 {
+    width:100%;
+}
+input {
+    border-radius:5px;
+    border:none;
+    padding:10px 5px;
+    outline: none;
+    font-size:20px;
+    margin:2px 0;
+}
+#nome {
+    width:100%;
+}
+#preco, #desconto, #total {
+    width:50%;
+    float:right;
+}
+button {
+    margin:10px auto;
+    display:block;
+    padding:10px 25px;
+    border-radius:5px;
+    border:none;
+    background:rgb(30, 30, 146);
+    color:white;
+    font-weight: bolder;
+    font-size:20px;
+    outline: none;
+}
+
